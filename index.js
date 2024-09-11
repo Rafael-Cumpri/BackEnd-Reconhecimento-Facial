@@ -32,7 +32,7 @@ app.put('/pessoas/:id', controllers.updatePessoa);
 app.delete('/pessoas/:id', controllers.deletePessoa);
 
 // Iniciar o servidor
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
